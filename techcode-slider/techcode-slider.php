@@ -101,7 +101,7 @@ function techcode_slider_add_admin_pages()
 function techcode_slider_options_page()
 {
     echo '<h2>Настройка системы слайдеров techcode</h2>';
-    echo '<p>Автор плагина: <a href="mailto:info@kondraland.ru">Кривощеков Артем</a>';
+    echo '<p>Автор плагина: <a href="https://vk.com/justahuman">Кривощеков Артем</a>';
 
     // добавить слайдер
     echo '<h3>Добавить слайдер</h3>';
@@ -371,7 +371,7 @@ function techcode_change_slider()
         }
 
         echo '
-        <form name="add_slider" method="post" action="' . $_SERVER['PHP_SELF'] . '?page=techcode-slider&amp;created=true">
+        <form name="techcode_add_slider" method="post" action="' . $_SERVER['PHP_SELF'] . '?page=techcode-slider&amp;created=true">
         ';
 
         if (function_exists('wp_nonce_field'))
@@ -434,8 +434,7 @@ function techcode_change_slider()
     }
 }
 
-function techcode_slider_run()
-{
+function techcode_slider_run() {
 
 }
 
