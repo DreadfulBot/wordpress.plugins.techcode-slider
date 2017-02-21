@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="02fddb37-03a6-4550-92e9-6efb4913459b" name="Default" comment="" />
+    <ignored path="wordpress.custom-slider-plugin.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="wordpress.custom-slider-plugin" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="techcode-slider.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/techcode-slider/techcode-slider.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+              <folding>
+                <element signature="e#6#92#0#PHP" expanded="true" />
+                <marker date="1487660655974" expanded="false" signature="585:1029" ph="CREATE TABLE... IF" />
+                <marker date="1487660655974" expanded="true" signature="1060:1404" ph="CREATE TABLE... IF" />
+                <marker date="1487660655974" expanded="true" signature="1435:2092" ph="CREATE TABLE... IF" />
+                <marker date="1487660655974" expanded="true" signature="2408:2448" ph="DROP TABLE `... " />
+                <marker date="1487660655974" expanded="true" signature="2465:2500" ph="DROP TABLE `... " />
+                <marker date="1487660655974" expanded="true" signature="2517:2551" ph="DROP TABLE `... " />
+                <marker date="1487660655974" expanded="true" signature="6151:7964" ph="..." />
+                <marker date="1487660655974" expanded="true" signature="6164:6310" ph="..." />
+                <marker date="1487660655974" expanded="true" signature="6189:6206" ph="..." />
+                <marker date="1487660655974" expanded="true" signature="6323:6460" ph="..." />
+                <marker date="1487660655974" expanded="true" signature="6348:6365" ph="..." />
+                <marker date="1487660655974" expanded="true" signature="6473:6610" ph="..." />
+                <marker date="1487660655974" expanded="true" signature="6498:6515" ph="..." />
+                <marker date="1487660655974" expanded="true" signature="6623:6765" ph="..." />
+                <marker date="1487660655974" expanded="true" signature="6648:6665" ph="..." />
+                <marker date="1487660655974" expanded="true" signature="6778:6912" ph="..." />
+                <marker date="1487660655974" expanded="true" signature="6803:6820" ph="..." />
+                <marker date="1487660655974" expanded="true" signature="6925:7063" ph="..." />
+                <marker date="1487660655974" expanded="true" signature="6950:6967" ph="..." />
+                <marker date="1487660655974" expanded="true" signature="7076:7621" ph="..." />
+                <marker date="1487660655974" expanded="true" signature="7113:7131" ph="..." />
+                <marker date="1487660655974" expanded="true" signature="7132:7607" ph="..." />
+                <marker date="1487660655974" expanded="true" signature="7360:7602" ph="..." />
+                <marker date="1487660655974" expanded="true" signature="7374:7386" ph="..." />
+                <marker date="1487660655974" expanded="true" signature="7387:7602" ph="..." />
+                <marker date="1487660655974" expanded="true" signature="7471:7589" ph="..." />
+                <marker date="1487660655974" expanded="true" signature="7485:7497" ph="..." />
+                <marker date="1487660655974" expanded="true" signature="7498:7585" ph="..." />
+                <marker date="1487660655974" expanded="true" signature="7634:7754" ph="..." />
+                <marker date="1487660655974" expanded="true" signature="7682:7707" ph="..." />
+                <marker date="1487660655974" expanded="true" signature="7767:7951" ph="..." />
+                <marker date="1487660655974" expanded="true" signature="7812:7937" ph="..." />
+                <marker date="1487660655974" expanded="true" signature="7905:7917" ph="..." />
+                <marker date="1487660655974" expanded="true" signature="9540:9613" ph="SELECT id FR... ${$table_slider_slide}" />
+                <marker date="1487660655974" expanded="true" signature="10408:10481" ph="SELECT `slid... ${$table_slider_slide}" />
+                <marker date="1487660655974" expanded="true" signature="10945:10983" ph="SELECT * FRO... ${$table_sliders}" />
+                <marker date="1487660655974" expanded="true" signature="11172:11351" ph="SELECT * FRO... ${$table_slider_slide}" />
+                <marker date="1487660655974" expanded="true" signature="11899:14397" ph="..." />
+                <marker date="1487660655974" expanded="true" signature="11916:12059" ph="..." />
+                <marker date="1487660655974" expanded="true" signature="11916:12114" ph="..." />
+                <marker date="1487660655974" expanded="true" signature="11945:11962" ph="..." />
+                <marker date="1487660655974" expanded="true" signature="12131:12158" ph="..." />
+                <marker date="1487660655974" expanded="true" signature="12131:12320" ph="..." />
+                <marker date="1487660655974" expanded="true" signature="12160:12177" ph="..." />
+                <marker date="1487660655974" expanded="true" signature="12337:12364" ph="..." />
+                <marker date="1487660655974" expanded="true" signature="12337:12524" ph="..." />
+                <marker date="1487660655974" expanded="true" signature="12366:12383" ph="..." />
+                <marker date="1487660655974" expanded="true" signature="12541:12568" ph="..." />
+                <marker date="1487660655974" expanded="true" signature="12541:12730" ph="..." />
+                <marker date="1487660655974" expanded="true" signature="12570:12587" ph="..." />
+                <marker date="1487660655974" expanded="true" signature="12747:12774" ph="..." />
+                <marker date="1487660655974" expanded="true" signature="12747:12930" ph="..." />
+                <marker date="1487660655974" expanded="true" signature="12776:12793" ph="..." />
+                <marker date="1487660655974" expanded="true" signature="12947:12974" ph="..." />
+                <marker date="1487660655974" expanded="true" signature="12947:13136" ph="..." />
+                <marker date="1487660655974" expanded="true" signature="12976:12993" ph="..." />
+                <marker date="1487660655974" expanded="true" signature="13153:13170" ph="..." />
+                <marker date="1487660655974" expanded="true" signature="13153:13705" ph="..." />
+                <marker date="1487660655974" expanded="true" signature="13193:13211" ph="..." />
+                <marker date="1487660655974" expanded="true" signature="13212:13687" ph="..." />
+                <marker date="1487660655974" expanded="true" signature="13454:13466" ph="..." />
+                <marker date="1487660655974" expanded="true" signature="13551:13669" ph="..." />
+                <marker date="1487660655974" expanded="true" signature="13565:13577" ph="..." />
+                <marker date="1487660655974" expanded="true" signature="13578:13665" ph="..." />
+                <marker date="1487660655974" expanded="true" signature="13671:13682" ph="..." />
+                <marker date="1487660655974" expanded="true" signature="13671:13687" ph="..." />
+                <marker date="1487660655974" expanded="true" signature="13722:13752" ph="..." />
+                <marker date="1487660655974" expanded="true" signature="13722:13871" ph="..." />
+                <marker date="1487660655974" expanded="true" signature="13774:13800" ph="..." />
+                <marker date="1487660655974" expanded="true" signature="13888:13921" ph="..." />
+                <marker date="1487660655974" expanded="true" signature="13888:14157" ph="..." />
+                <marker date="1487660655974" expanded="true" signature="14003:14036" ph="..." />
+                <marker date="1487660655974" expanded="true" signature="14003:14139" ph="..." />
+                <marker date="1487660655974" expanded="true" signature="14103:14115" ph="..." />
+                <marker date="1487660655974" expanded="true" signature="14174:14380" ph="..." />
+                <marker date="1487660655974" expanded="true" signature="14227:14362" ph="..." />
+                <marker date="1487660655974" expanded="true" signature="14326:14338" ph="..." />
+                <marker date="1487660655974" expanded="true" signature="14837:14870" ph="SELECT * FRO... " />
+                <marker date="1487660655974" expanded="true" signature="14837:14888" ph="SELECT * FRO... " />
+                <marker date="1487660655974" expanded="true" signature="14837:14925" ph="SELECT * FRO... ${$table_sliders}" />
+                <marker date="1487660655974" expanded="true" signature="14837:14948" ph="SELECT * FRO... ${$table_sliders}" />
+                <marker date="1487660655974" expanded="true" signature="14837:15013" ph="SELECT * FRO... ${$table_sliders}" />
+                <marker date="1487660655974" expanded="true" signature="14837:15030" ph="SELECT * FRO... ${$table_sliders}" />
+                <marker date="1487660655974" expanded="true" signature="14837:15071" ph="SELECT * FRO... ." />
+                <marker date="1487660655974" expanded="true" signature="14837:15118" ph="SELECT * FRO... ${$table_sliders}" />
+                <marker date="1487660655974" expanded="true" signature="14837:15120" ph="SELECT * FRO... ${$table_sliders}" />
+                <marker date="1487660655974" expanded="true" signature="14837:15139" ph="SELECT * FRO... ${$table_sliders}" />
+                <marker date="1487660655974" expanded="true" signature="14837:15140" ph="SELECT * FRO... ${$table_sliders}" />
+                <marker date="1487660655974" expanded="true" signature="14837:15149" ph="SELECT * FRO... wp_techcode_sliders" />
+                <marker date="1487660655974" expanded="true" signature="14837:15330" ph="SELECT * FRO... ${$table_sliders}" />
+                <marker date="1487660655974" expanded="true" signature="15390:15901" ph="..." />
+                <marker date="1487660655974" expanded="true" signature="15454:15642" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/techcode-slider/techcode-slider.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wordpress.custom-slider-plugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wordpress.custom-slider-plugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wordpress.custom-slider-plugin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wordpress.custom-slider-plugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wordpress.custom-slider-plugin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="techcode-slider" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="D:/Разработка/Kondraland/estzapros/public_html" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files (x86)\nodejs\node.exe" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="02fddb37-03a6-4550-92e9-6efb4913459b" name="Default" comment="" />
+      <created>1487570356118</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1487570356118</updated>
+      <workItem from="1487570357352" duration="26527000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="26527000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3984375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329718" sideWeight="0.50208336" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329718" sideWeight="0.49791667" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/techcode-slider/techcode-slider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+          <folding>
+            <element signature="e#6#92#0#PHP" expanded="true" />
+            <marker date="1487660655974" expanded="false" signature="585:1029" ph="CREATE TABLE... IF" />
+            <marker date="1487660655974" expanded="true" signature="1060:1404" ph="CREATE TABLE... IF" />
+            <marker date="1487660655974" expanded="true" signature="1435:2092" ph="CREATE TABLE... IF" />
+            <marker date="1487660655974" expanded="true" signature="2408:2448" ph="DROP TABLE `... " />
+            <marker date="1487660655974" expanded="true" signature="2465:2500" ph="DROP TABLE `... " />
+            <marker date="1487660655974" expanded="true" signature="2517:2551" ph="DROP TABLE `... " />
+            <marker date="1487660655974" expanded="true" signature="6151:7964" ph="..." />
+            <marker date="1487660655974" expanded="true" signature="6164:6310" ph="..." />
+            <marker date="1487660655974" expanded="true" signature="6189:6206" ph="..." />
+            <marker date="1487660655974" expanded="true" signature="6323:6460" ph="..." />
+            <marker date="1487660655974" expanded="true" signature="6348:6365" ph="..." />
+            <marker date="1487660655974" expanded="true" signature="6473:6610" ph="..." />
+            <marker date="1487660655974" expanded="true" signature="6498:6515" ph="..." />
+            <marker date="1487660655974" expanded="true" signature="6623:6765" ph="..." />
+            <marker date="1487660655974" expanded="true" signature="6648:6665" ph="..." />
+            <marker date="1487660655974" expanded="true" signature="6778:6912" ph="..." />
+            <marker date="1487660655974" expanded="true" signature="6803:6820" ph="..." />
+            <marker date="1487660655974" expanded="true" signature="6925:7063" ph="..." />
+            <marker date="1487660655974" expanded="true" signature="6950:6967" ph="..." />
+            <marker date="1487660655974" expanded="true" signature="7076:7621" ph="..." />
+            <marker date="1487660655974" expanded="true" signature="7113:7131" ph="..." />
+            <marker date="1487660655974" expanded="true" signature="7132:7607" ph="..." />
+            <marker date="1487660655974" expanded="true" signature="7360:7602" ph="..." />
+            <marker date="1487660655974" expanded="true" signature="7374:7386" ph="..." />
+            <marker date="1487660655974" expanded="true" signature="7387:7602" ph="..." />
+            <marker date="1487660655974" expanded="true" signature="7471:7589" ph="..." />
+            <marker date="1487660655974" expanded="true" signature="7485:7497" ph="..." />
+            <marker date="1487660655974" expanded="true" signature="7498:7585" ph="..." />
+            <marker date="1487660655974" expanded="true" signature="7634:7754" ph="..." />
+            <marker date="1487660655974" expanded="true" signature="7682:7707" ph="..." />
+            <marker date="1487660655974" expanded="true" signature="7767:7951" ph="..." />
+            <marker date="1487660655974" expanded="true" signature="7812:7937" ph="..." />
+            <marker date="1487660655974" expanded="true" signature="7905:7917" ph="..." />
+            <marker date="1487660655974" expanded="true" signature="9540:9613" ph="SELECT id FR... ${$table_slider_slide}" />
+            <marker date="1487660655974" expanded="true" signature="10408:10481" ph="SELECT `slid... ${$table_slider_slide}" />
+            <marker date="1487660655974" expanded="true" signature="10945:10983" ph="SELECT * FRO... ${$table_sliders}" />
+            <marker date="1487660655974" expanded="true" signature="11172:11351" ph="SELECT * FRO... ${$table_slider_slide}" />
+            <marker date="1487660655974" expanded="true" signature="11899:14397" ph="..." />
+            <marker date="1487660655974" expanded="true" signature="11916:12059" ph="..." />
+            <marker date="1487660655974" expanded="true" signature="11916:12114" ph="..." />
+            <marker date="1487660655974" expanded="true" signature="11945:11962" ph="..." />
+            <marker date="1487660655974" expanded="true" signature="12131:12158" ph="..." />
+            <marker date="1487660655974" expanded="true" signature="12131:12320" ph="..." />
+            <marker date="1487660655974" expanded="true" signature="12160:12177" ph="..." />
+            <marker date="1487660655974" expanded="true" signature="12337:12364" ph="..." />
+            <marker date="1487660655974" expanded="true" signature="12337:12524" ph="..." />
+            <marker date="1487660655974" expanded="true" signature="12366:12383" ph="..." />
+            <marker date="1487660655974" expanded="true" signature="12541:12568" ph="..." />
+            <marker date="1487660655974" expanded="true" signature="12541:12730" ph="..." />
+            <marker date="1487660655974" expanded="true" signature="12570:12587" ph="..." />
+            <marker date="1487660655974" expanded="true" signature="12747:12774" ph="..." />
+            <marker date="1487660655974" expanded="true" signature="12747:12930" ph="..." />
+            <marker date="1487660655974" expanded="true" signature="12776:12793" ph="..." />
+            <marker date="1487660655974" expanded="true" signature="12947:12974" ph="..." />
+            <marker date="1487660655974" expanded="true" signature="12947:13136" ph="..." />
+            <marker date="1487660655974" expanded="true" signature="12976:12993" ph="..." />
+            <marker date="1487660655974" expanded="true" signature="13153:13170" ph="..." />
+            <marker date="1487660655974" expanded="true" signature="13153:13705" ph="..." />
+            <marker date="1487660655974" expanded="true" signature="13193:13211" ph="..." />
+            <marker date="1487660655974" expanded="true" signature="13212:13687" ph="..." />
+            <marker date="1487660655974" expanded="true" signature="13454:13466" ph="..." />
+            <marker date="1487660655974" expanded="true" signature="13551:13669" ph="..." />
+            <marker date="1487660655974" expanded="true" signature="13565:13577" ph="..." />
+            <marker date="1487660655974" expanded="true" signature="13578:13665" ph="..." />
+            <marker date="1487660655974" expanded="true" signature="13671:13682" ph="..." />
+            <marker date="1487660655974" expanded="true" signature="13671:13687" ph="..." />
+            <marker date="1487660655974" expanded="true" signature="13722:13752" ph="..." />
+            <marker date="1487660655974" expanded="true" signature="13722:13871" ph="..." />
+            <marker date="1487660655974" expanded="true" signature="13774:13800" ph="..." />
+            <marker date="1487660655974" expanded="true" signature="13888:13921" ph="..." />
+            <marker date="1487660655974" expanded="true" signature="13888:14157" ph="..." />
+            <marker date="1487660655974" expanded="true" signature="14003:14036" ph="..." />
+            <marker date="1487660655974" expanded="true" signature="14003:14139" ph="..." />
+            <marker date="1487660655974" expanded="true" signature="14103:14115" ph="..." />
+            <marker date="1487660655974" expanded="true" signature="14174:14380" ph="..." />
+            <marker date="1487660655974" expanded="true" signature="14227:14362" ph="..." />
+            <marker date="1487660655974" expanded="true" signature="14326:14338" ph="..." />
+            <marker date="1487660655974" expanded="true" signature="14837:14870" ph="SELECT * FRO... " />
+            <marker date="1487660655974" expanded="true" signature="14837:14888" ph="SELECT * FRO... " />
+            <marker date="1487660655974" expanded="true" signature="14837:14925" ph="SELECT * FRO... ${$table_sliders}" />
+            <marker date="1487660655974" expanded="true" signature="14837:14948" ph="SELECT * FRO... ${$table_sliders}" />
+            <marker date="1487660655974" expanded="true" signature="14837:15013" ph="SELECT * FRO... ${$table_sliders}" />
+            <marker date="1487660655974" expanded="true" signature="14837:15030" ph="SELECT * FRO... ${$table_sliders}" />
+            <marker date="1487660655974" expanded="true" signature="14837:15071" ph="SELECT * FRO... ." />
+            <marker date="1487660655974" expanded="true" signature="14837:15118" ph="SELECT * FRO... ${$table_sliders}" />
+            <marker date="1487660655974" expanded="true" signature="14837:15120" ph="SELECT * FRO... ${$table_sliders}" />
+            <marker date="1487660655974" expanded="true" signature="14837:15139" ph="SELECT * FRO... ${$table_sliders}" />
+            <marker date="1487660655974" expanded="true" signature="14837:15140" ph="SELECT * FRO... ${$table_sliders}" />
+            <marker date="1487660655974" expanded="true" signature="14837:15149" ph="SELECT * FRO... wp_techcode_sliders" />
+            <marker date="1487660655974" expanded="true" signature="14837:15330" ph="SELECT * FRO... ${$table_sliders}" />
+            <marker date="1487660655974" expanded="true" signature="15390:15901" ph="..." />
+            <marker date="1487660655974" expanded="true" signature="15454:15642" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

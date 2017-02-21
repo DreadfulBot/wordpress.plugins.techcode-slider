@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c4dc139d-9aa3-4f75-8044-ccd06ff2f9ba" name="dev.tvoigoroda.ru" url="http://dev.tvoigoroda.ru">
+        <fileTransfer host="a115862.ftp.mchost.ru" port="22" rootFolder="/home/httpd/vhosts/tvoigoroda.ru/subdomains/dev/httpdocs/wp-content/plugins" accessType="SFTP" password="df9edfecdfdfdfe7df99dfd0df9cdfe0dffcdfcf" username="a115862_tgu">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
