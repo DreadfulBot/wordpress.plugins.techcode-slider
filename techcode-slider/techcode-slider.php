@@ -17,7 +17,7 @@
  */
 
 
-function install()
+function techcode_install()
 {
     global $wpdb;
 
@@ -74,7 +74,7 @@ function install()
     $wpdb->query($sql3);
 }
 
-function uninstall()
+function techcode_uninstall()
 {
     global $wpdb;
 
@@ -92,24 +92,24 @@ function uninstall()
 
 }
 
-function add_admin_pages()
+function techcode_slider_add_admin_pages()
 {
-    add_options_page('Настройки слайдера', 'Настройки слайдера', 8, 'techcode-awesome-slider', 'options_page');
+    add_options_page('Настройки слайдеров', 'Настройки слайдеров', 8, 'techcode-slider', 'techcode_slider_options_page');
 }
 
 
-function options_page()
+function techcode_slider_options_page()
 {
     echo '<h2>Настройка системы слайдеров techcode</h2>';
     echo '<p>Автор плагина: <a href="mailto:info@kondraland.ru">Кривощеков Артем</a>';
 
     // добавить слайдер
     echo '<h3>Добавить слайдер</h3>';
-    add_slider();
+    techcode_add_slider();
 
     // отредактировать существующие
     echo '<h3>Добавленные слайдеры</h3>';
-    change_slider();
+    techcode_change_slider();
 }
 
 function insert_slides($slider_id, $slides) {
@@ -158,14 +158,14 @@ function insert_slides($slider_id, $slides) {
     }
 }
 
-function add_slider()
+function techcode_add_slider()
 {
     global $wpdb;
 
     $table_sliders = $wpdb->prefix . techcode_sliders;
 
 
-    if (isset($_POST['add_slider_btn'])) {
+    if (isset($_POST['techcode_add_slider_btn'])) {
 
         if (function_exists('current_user_can') &&
             !current_user_can('manage_options')
@@ -173,15 +173,15 @@ function add_slider()
             die(_e('HACKER?', 'techcode'));
 
         if (function_exists('check_admin_referer'))
-            check_admin_referer('add_slider');
+            check_admin_referer('techcode_add_slider');
 
-        $shortcode_name = $_POST['shortcode_name'];
-        $slider_class = $_POST['slider_class'];
-        $slider_id = $_POST['slider_id'];
-        $slide_class = $_POST['slide_class'];
-        $caption_class = $_POST['caption_class'];
-        $slides = $_POST['slides'];
-        $slider_description = $_POST['slider_description'];
+        $shortcode_name = $_POST['techcode_shortcode_name'];
+        $slider_class = $_POST['techcode_slider_class'];
+        $slider_id = $_POST['techcode_slider_id'];
+        $slide_class = $_POST['techcode_slide_class'];
+        $caption_class = $_POST['techcode_caption_class'];
+        $slides = $_POST['techcode_slides'];
+        $slider_description = $_POST['techcode_slider_description'];
 
         // создаем новый слайдер
         $wpdb->insert(
@@ -207,37 +207,37 @@ function add_slider()
     }
 
     echo '
-        <form name="add_slider" method="post" action="' . $_SERVER['PHP_SELF'] . '?page=techcode-awesome-slider&amp;created=true">
+        <form name="techcode_add_slider" method="post" action="' . $_SERVER['PHP_SELF'] . '?page=techcode-slider&amp;created=true">
         ';
 
     if (function_exists('wp_nonce_field'))
-        wp_nonce_field('add_slider');
+        wp_nonce_field('techcode_add_slider');
 
     echo '
     <table>
         <tr>
             <td style="text-align: right">Описание слайдера</td>
-            <td><input type="text" name="slider_description"></td>
+            <td><input type="text" name="techcode_slider_description"></td>
         </tr>
         <tr>
             <td style="text-align: right">Имя шорткода</td>
-            <td><input type="text" name="shortcode_name"></td>
+            <td><input type="text" name="techcode_shortcode_name"></td>
         </tr>
         <tr>
             <td style="text-align: right">Класс слайдера</td>
-            <td><input type="text" name="slider_class"></td>
+            <td><input type="text" name="techcode_slider_class"></td>
         </tr>
         <tr>
             <td style="text-align: right">Идентификатор слайдера</td>
-            <td><input type="text" name="slider_id"></td>
+            <td><input type="text" name="techcode_slider_id"></td>
         </tr>
         <tr>
             <td style="text-align: right">Класс слайда</td>
-            <td><input type="text" name="slide_class"></td>
+            <td><input type="text" name="techcode_slide_class"></td>
         </tr>
         <tr>
             <td style="text-align: right">Класс описания</td>
-            <td><input type="text" name="caption_class"></td>
+            <td><input type="text" name="techcode_caption_class"></td>
         </tr>
         <tr>
             <td colspan="2" style="text-align: center">Слайды с описаниями и ссылками (по 1 в каждой строке через знак ";")<br/>
@@ -249,12 +249,12 @@ function add_slider()
             </td>
         </tr>
         <tr>
-             <td colspan="2"><textarea style="width: 100%; height:200px" name="slides"></textarea></td>  
+             <td colspan="2"><textarea style="width: 100%; height:200px" name="techcode_slides"></textarea></td>  
         </tr>
         <tr>
             <td>&nbsp;</td>
             <td>
-                <input type="submit" name="add_slider_btn" value="Добавить слайдер" style="width: 140px"/>
+                <input type="submit" name="techcode_add_slider_btn" value="Добавить слайдер" style="width: 140px"/>
             </td>
         </tr>
     </table>';
@@ -262,7 +262,7 @@ function add_slider()
     echo '</form>';
 }
 
-function change_slider()
+function techcode_change_slider()
 {
     global $wpdb;
 
@@ -271,7 +271,7 @@ function change_slider()
     $table_slider_slide = $wpdb->prefix . techcode_slider_slide;
 
     // нажата клавиша "изменить слайдер"
-    if (isset($_POST['change_slider_btn'])) {
+    if (isset($_POST['techcode_change_slider_btn'])) {
 
         if (function_exists('current_user_can') &&
             !current_user_can('manage_options')
@@ -279,20 +279,22 @@ function change_slider()
             die(_e('HACKER?', 'techcode'));
 
         if (function_exists('check_admin_referer'))
-            check_admin_referer('add_slider');
+            check_admin_referer('techcode_add_slider');
 
-        $shortcode_name = $_POST['shortcode_name'];
-        $slider_class = $_POST['slider_class'];
-        $slider_id = $_POST['slider_id'];
-        $slide_class = $_POST['slide_class'];
-        $caption_class = $_POST['caption_class'];
-        $slides = $_POST['slides'];
-        $slider_db_id = $_POST['slider_db_id'];
+        $shortcode_name = $_POST['techcode_shortcode_name'];
+        $slider_description = $_POST['techcode_slider_description'];
+        $slider_class = $_POST['techcode_slider_class'];
+        $slider_id = $_POST['techcode_slider_id'];
+        $slide_class = $_POST['techcode_slide_class'];
+        $caption_class = $_POST['techcode_caption_class'];
+        $slides = $_POST['techcode_slides'];
+        $slider_db_id = $_POST['techcode_slider_db_id'];
 
         // изменяем выбранный слайдер
         $wpdb->update(
             $table_sliders,
             array(
+                'slider_description' => $slider_description,
                 'shortcode_name' => $shortcode_name,
                 'slider_class' => $slider_class,
                 'slide_class' => $slide_class,
@@ -323,17 +325,16 @@ function change_slider()
     }
 
     // нажата клавиша "удалить плагин"
-    if(isset($_POST['delete_slider_btn'])) {
+    if(isset($_POST['techcode_delete_slider_btn'])) {
         if (function_exists('current_user_can') &&
             !current_user_can('manage_options')
         )
             die(_e('HACKER?', 'techcode'));
 
         if (function_exists('check_admin_referer'))
-            check_admin_referer('add_slider');
+            check_admin_referer('techcode_add_slider');
 
-        $slider_db_id = $_POST['slider_db_id'];
-        $shortcode_name = $_POST['shortcode_name'];
+        $slider_db_id = $_POST['techcode_slider_db_id'];
 
         // получаем все слайды слайдера
         $slide_ids = $wpdb->get_results('SELECT `slide_id` FROM `' . $table_slider_slide . '` WHERE `slider_id` = ' . $slider_db_id);
@@ -370,37 +371,37 @@ function change_slider()
         }
 
         echo '
-        <form name="add_slider" method="post" action="' . $_SERVER['PHP_SELF'] . '?page=techcode-awesome-slider&amp;created=true">
+        <form name="add_slider" method="post" action="' . $_SERVER['PHP_SELF'] . '?page=techcode-slider&amp;created=true">
         ';
 
         if (function_exists('wp_nonce_field'))
-            wp_nonce_field('add_slider');
+            wp_nonce_field('techcode_add_slider');
 
         echo '
         <table>
             <tr>
                 <td style="text-align: right">Описание слайдера</td>
-                <td><input type="text" name="slider_description" value="'.$slider->slider_description.'"></td>
+                <td><input type="text" name="techcode_slider_description" value="'.$slider->slider_description.'"></td>
             </tr>
             <tr>
                 <td style="text-align: right">Имя шорткода</td>
-                <td><input type="text" name="shortcode_name" value="' . $slider->shortcode_name . '"></td>
+                <td><input type="text" name="techcode_shortcode_name" value="' . $slider->shortcode_name . '"></td>
             </tr>
             <tr>
                 <td style="text-align: right">Класс слайдера</td>
-                <td><input type="text" name="slider_class" value="' . $slider->slider_class . '"></td>
+                <td><input type="text" name="techcode_slider_class" value="' . $slider->slider_class . '"></td>
             </tr>
             <tr>
                 <td style="text-align: right">Идентификатор слайдера</td>
-                <td><input type="text" name="slider_id" value="' . $slider->slider_id . '"></td>
+                <td><input type="text" name="techcode_slider_id" value="' . $slider->slider_id . '"></td>
             </tr>
             <tr>
                 <td style="text-align: right">Класс слайда</td>
-                <td><input type="text" name="slide_class" value="' . $slider->slide_class . '"></td>
+                <td><input type="text" name="techcode_slide_class" value="' . $slider->slide_class . '"></td>
             </tr>
             <tr>
                 <td style="text-align: right">Класс описания</td>
-                <td><input type="text" name="caption_class" value="' . $slider->caption_class . '"></td>
+                <td><input type="text" name="techcode_caption_class" value="' . $slider->caption_class . '"></td>
             </tr>
             <tr>
                <td colspan="2" style="text-align: center">Слайды с описаниями и ссылками (по 1 в каждой строке через знак ";")<br/>
@@ -412,18 +413,18 @@ function change_slider()
             </td>
             </tr>
             <tr>
-                 <td colspan="2"><textarea style="width: 100%; height:200px;" name="slides">' . $slides_concat . '</textarea></td>
+                 <td colspan="2"><textarea style="width: 100%; height:200px;" name="techcode_slides">' . $slides_concat . '</textarea></td>
             </tr>
             <tr>
-                <td><input type="hidden" name="slider_db_id" value="' . $slider->id . '"</td>
+                <td><input type="hidden" name="techcode_slider_db_id" value="' . $slider->id . '"</td>
                 <td>
-                    <input type="submit" name="change_slider_btn" value="Изменить слайдер" style="width: 140px"/>
+                    <input type="submit" name="techcode_change_slider_btn" value="Изменить слайдер" style="width: 140px"/>
                 </td>
             </tr>
             <tr>
                 <td>&nbsp;</td>
                 <td>
-                    <input type="submit" name="delete_slider_btn" value="Удалить слайдер" style="width: 140px"/>
+                    <input type="submit" name="techcode_delete_slider_btn" value="Удалить слайдер" style="width: 140px"/>
                 </td>
             </tr>
         </table><hr/>
@@ -433,14 +434,14 @@ function change_slider()
     }
 }
 
-function run()
+function techcode_slider_run()
 {
 
 }
 
 // функция отображения контента шорткода
 // $params->name - ожидаемое имя шорткода
-function display_slider($params) {
+function techcode_display_slider($params) {
     global $wpdb;
 
     $table_sliders = $wpdb->prefix . techcode_sliders;
@@ -483,11 +484,11 @@ function display_slider($params) {
     echo '</div>';
 }
 
-add_shortcode('techcode-slider', 'display_slider');
+add_shortcode('techcode-slider', 'techcode_display_slider');
 
-register_activation_hook(__FILE__, 'install');
-register_deactivation_hook(__FILE__, 'uninstall');
+register_activation_hook(__FILE__, 'techcode_install');
+register_deactivation_hook(__FILE__, 'techcode_uninstall');
 
-add_action('admin_menu', 'add_admin_pages');
-add_action('init', 'run');
+add_action('admin_menu', 'techcode_slider_add_admin_pages');
+add_action('init', 'techcode_slider_run');
 

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/wordpress.custom-slider-plugin.iml" filepath="$PROJECT_DIR$/.idea/wordpress.custom-slider-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/wordpress.techcode-slider.iml" filepath="$PROJECT_DIR$/.idea/wordpress.techcode-slider.iml" />
     </modules>
   </component>
 </project>
