@@ -76,32 +76,32 @@ function techcode_install()
 
 function techcode_uninstall()
 {
-    global $wpdb;
-
-    $table_sliders = $wpdb->prefix . techcode_sliders;
-    $table_slides = $wpdb->prefix . techcode_slides;
-    $table_slider_slide = $wpdb->prefix . techcode_slider_slide;
-
-    $sql1 = "DROP TABLE `" . $table_slider_slide . "`;";
-    $sql2 = "DROP TABLE `" . $table_sliders . "`;";
-    $sql3 = "DROP TABLE `" . $table_slides . "`;";
-
-    $wpdb->query($sql1);
-    $wpdb->query($sql2);
-    $wpdb->query($sql3);
+//    global $wpdb;
+//
+//    $table_sliders = $wpdb->prefix . techcode_sliders;
+//    $table_slides = $wpdb->prefix . techcode_slides;
+//    $table_slider_slide = $wpdb->prefix . techcode_slider_slide;
+//
+//    $sql1 = "DROP TABLE `" . $table_slider_slide . "`;";
+//    $sql2 = "DROP TABLE `" . $table_sliders . "`;";
+//    $sql3 = "DROP TABLE `" . $table_slides . "`;";
+//
+//    $wpdb->query($sql1);
+//    $wpdb->query($sql2);
+//    $wpdb->query($sql3);
 
 }
 
 function techcode_slider_add_admin_pages()
 {
-    add_options_page('Настройки слайдеров', 'Настройки слайдеров', 8, 'techcode-slider', 'techcode_slider_options_page');
+    add_options_page('Настройки слайдеров', 'Слайдеры', 8, 'techcode-slider', 'techcode_slider_options_page');
 }
 
 
 function techcode_slider_options_page()
 {
     echo '<h2>Настройка системы слайдеров techcode</h2>';
-    echo '<p>Автор плагина: <a href="https://vk.com/justahuman">Кривощеков Артем</a>';
+    echo '<p>Автор плагина: <a href="https://vk.com/justahuman">Кривощеков Артем</a></p>';
 
     // добавить слайдер
     echo '<h3>Добавить слайдер</h3>';
@@ -443,6 +443,8 @@ function techcode_slider_run() {
 function techcode_display_slider($params) {
     global $wpdb;
 
+    $result='';
+
     $table_sliders = $wpdb->prefix . techcode_sliders;
     $table_slides = $wpdb->prefix . techcode_slides;
     $table_slider_slide = $wpdb->prefix . techcode_slider_slide;
@@ -461,26 +463,27 @@ function techcode_display_slider($params) {
     $slide_class = $slider[0]->slide_class;
     $caption_class = $slider[0]->caption_class;
 
-    echo '<div id='.$slider_id.' class="'.$slider_class.'">';
+    $result.='<div id='.$slider_id.' class="'.$slider_class.'">';
 
     foreach ($slider as $slider_image) {
-        echo '<div>';
+        $result.='<div>';
 
         if(!empty($slider_image->link_url))
-            echo '<a href="'.$slider_image->link_url.'">';
+            $result.='<a href="'.$slider_image->link_url.'">';
 
-        echo '<img class="'.$slide_class.'" src="'.$slider_image->image_url.'">';
+        $result.='<img class="'.$slide_class.'" src="'.$slider_image->image_url.'">';
 
         if(!empty($slider_image->link_url))
-            echo '</a>';
+            $result.='</a>';
 
         if(!empty($slider_image->slide_caption))
-            echo '<p class="'.$caption_class.'">'.$slider_image->slide_caption.'</p>';
+            $result.='<p class="'.$caption_class.'">'.$slider_image->slide_caption.'</p>';
 
-        echo '</div>';
+        $result.='</div>';
     }
 
-    echo '</div>';
+    $result.='</div>';
+    return $result;
 }
 
 add_shortcode('techcode-slider', 'techcode_display_slider');
